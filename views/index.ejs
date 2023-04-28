@@ -1,0 +1,14 @@
+<html>
+    <body>
+        Welcome <%=yourname%> to EJS site
+        <p> <a href="/login">Login</a></p>
+        <ul>
+            <%
+            courses.forEach((item)=>{
+            %>
+            <li><%=item%></li>
+
+            <% }) %>
+        </ul>
+    </body>
+</html>
